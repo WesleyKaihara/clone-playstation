@@ -1,0 +1,44 @@
+.produtos {
+  padding: 5vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.produtos img {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.produtos_text {
+  width: 50%;
+}
+
+.produtos_text h1 {
+  font-size: 4.5vh;
+}
+
+.produtos_text p {
+  max-width: 35ch;
+  margin: 2vh 0 4vh;
+  line-height: 3.5vh;
+  font-size: 2.6vh;
+  color: #555;
+}
+
+.produtos_text button {
+  background: rgb(87, 87, 255);
+  color: #fff;
+  padding: 1.5vh 4vh;
+  border: 3px solid rgb(87, 87, 255);
+  border-radius: 25px;
+  font-size: 2vh;
+  cursor: pointer;
+  transition: all .7s ease;
+}
+
+.produtos_text button:hover {
+  border: 3px solid rgb(87, 87, 255);
+  box-shadow: 0 0 25px rgb(87, 87, 255);
+  transform: scale(1.08);
+}

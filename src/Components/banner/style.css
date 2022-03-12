@@ -1,0 +1,87 @@
+.banner_img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  z-index: -1;
+}
+
+.banner_content {
+  width: 35vw;
+  position: absolute;
+  left: 8vw;
+  top: 58vh;
+  color: #ddd;
+}
+
+.banner_content h1 {
+  font-size: 4vh;
+  margin-bottom: 2.5vh;
+}
+
+.banner_content p {
+  font-size: 2vh;
+  text-align: justify;
+  line-height: 4vh;
+}
+
+.banner_content button {
+  border-radius: 25px;
+  padding: 1.2vh 3.5vh;
+  margin-top: 2vh;
+  cursor: pointer;
+  border: 3px solid #fff;
+  transition: all .5s ease;
+}
+
+.banner_content button:hover {
+  border: 3px solid rgb(87, 87, 255);
+  box-shadow: 0 0 15px rgb(87, 87, 255);
+  transform: scale(1.08);
+}
+
+.banner_logo {
+  width: 30vw;
+  position: absolute;
+  left: 2vw;
+  top: 10vh;
+}
+
+.banner_selector {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 4vh 0;
+  cursor: pointer;
+}
+
+.banner_selector img {
+  width: 16.5vw;
+  height: 20vh;
+  border-radius: 10px;
+  filter: opacity(80%);
+  transition: all .5s ease;
+}
+
+.banner_selector img:hover {
+  filter: opacity(100%);
+}
+
+.notSelected {
+  border: 3.5px solid #fff;
+  border-radius: 15px;
+  padding: 2px;
+  transition: all .5s ease;
+}
+
+.selected {
+  border: 3.5px solid rgb(87, 87, 255);
+  border-radius: 15px;
+  padding: 2px;
+  transition: all .5s ease;
+}
+
+.selected:hover {
+  transform: translateY(-8%);
+}
