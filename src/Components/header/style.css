@@ -3,19 +3,19 @@ header {
   position: fixed;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
   background: #fff;
-  z-index: 99999;
+  z-index: 99;
 }
 
 .sony {
   width: 100%;
   background: #000;
-  display: flex;
-  justify-content: end;
-  padding: 1vh 0;
+  height: 4vh;
+  padding: 1vh;
 }
 
 .sony h1 {
-  margin-right: 2vh;
+  position: absolute;
+  right: 5vh;
   color: #fff;
   font-size: 3vh;
 }
