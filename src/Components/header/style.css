@@ -1,6 +1,5 @@
 header {
   width: 100%;
-  height: 15vh;
   position: fixed;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
   background: #fff;
@@ -63,4 +62,49 @@ header {
   padding: .7vh 1.5vh;
   font-size: 2vh;
   cursor: pointer;
+}
+
+.playstationMobileLogo {
+  display: none;
+}
+
+
+@media(max-width:950px) {
+  header {
+    padding: 0 0 3vh;
+  }
+
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu_links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu_links_content {
+    flex-direction: column;
+    display: none;
+  }
+
+  .header_login {
+    display: none;
+  }
+
+  .Logo_Ps {
+    display: none;
+  }
+
+  .playstationMobileLogo {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    padding: 0 40vw;
+  }
+
+  .mostrar {
+    display: flex;
+  }
 }

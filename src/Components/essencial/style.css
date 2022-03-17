@@ -3,7 +3,7 @@
 }
 
 .essencial_text h1 {
-  font-size: 5vh;
+  font-size: 1.8em;
   text-align: justify;
   line-height: 6vh;
 }
@@ -53,4 +53,23 @@
   align-items: center;
   gap: 2vw;
   padding: 8vh 0;
+}
+
+
+@media(max-width:950px) {
+  .essencial {
+    flex-direction: column-reverse;
+  }
+
+  .EssencialIMG {
+    width: 100%;
+  }
+
+  .essencial_text {
+    width: 100%;
+  }
+
+  .essencial_text h1 {
+    text-align: center;
+  }
 }

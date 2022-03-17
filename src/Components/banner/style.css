@@ -12,6 +12,9 @@
   left: 8vw;
   top: 58vh;
   color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .banner_content h1 {
@@ -32,6 +35,7 @@
   cursor: pointer;
   border: 3px solid #fff;
   transition: all .5s ease;
+  width: 40%;
 }
 
 .banner_content button:hover {
@@ -50,6 +54,7 @@
 .banner_selector {
   display: flex;
   width: 90%;
+  overflow: auto;
   margin: auto;
   justify-content: space-between;
   padding: 4vh 0;
@@ -84,4 +89,42 @@
 
 .selected:hover {
   transform: translateY(-8%);
+}
+
+@media(max-width:950px) {
+
+  .banner {
+    text-align: center;
+  }
+
+  .banner_selector img {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .banner_img {
+    height: 55vh;
+  }
+
+  .banner_logo {
+    display: none;
+  }
+
+  .banner_content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 17vh;
+    color: #ddd;
+  }
+
+  .banner_content p {
+    max-width: 80ch;
+    font-size: 2vh;
+    margin: 0 5%;
+  }
+
+  .banner_content button {
+    margin: 5vh auto;
+  }
 }
