@@ -51,4 +51,8 @@
     width: 100%;
     height: 70vh;
   }
+
+  .NovoJogo_content h1 {
+    font-size: 4vh;
+  }
 }

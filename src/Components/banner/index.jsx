@@ -91,7 +91,7 @@ export default function Banner() {
         <div data-aos="fade" data-aos-delay="200" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={EndenRing} alt="EndenRing" /></div>
         <div data-aos="fade" data-aos-delay="400" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={GTA5ONLINE} alt="GTA5" /></div>
         <div data-aos="fade" data-aos-delay="600" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={AppleTv} alt="AppleTv" /></div>
-        <div data-aos="fade" data-aos-delay="800" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={Promotion} alt="Promotion" /></div>
+        <div data-aos="fade" data-aos-delay="00" className="banner_selector_item" onClick={(item) => { ChangeBanner(item) }}><img src={Promotion} alt="Promotion" /></div>
       </section>
     </div>
   )
