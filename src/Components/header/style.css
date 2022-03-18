@@ -68,6 +68,18 @@ header {
   display: none;
 }
 
+.sub_menu {
+  text-align: center;
+  display: none;
+}
+
+.sub_menu li {
+  margin-top: 1vh;
+}
+
+.abrir_menu {
+  display: block;
+}
 
 @media(max-width:950px) {
   header {

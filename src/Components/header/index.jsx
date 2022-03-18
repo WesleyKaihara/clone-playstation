@@ -24,7 +24,8 @@ export default function Header() {
           <a href="/"><img src={PlaystationLogo} alt="PlaystationLogo" className='Logo_Ps' /></a>
           <img src={PlaystationLogo} alt="PlaystationLogo" onClick={MobileMenu} className='playstationMobileLogo' />
           <ul className={`menu_links_content ${mobile}`}>
-            <li>Jogos</li>
+            <li>Jogos
+            </li>
             <li>Hardware</li>
             <li>Serviços</li>
             <li>Notícias</li>
@@ -37,6 +38,6 @@ export default function Header() {
           <button>Inciar sessão</button>
         </div>
       </div>
-    </header>
+    </header >
   )
 }

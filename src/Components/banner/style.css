@@ -1,4 +1,5 @@
 .banner_img {
+  margin-top: 7vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,10 +46,11 @@
 }
 
 .banner_logo {
-  width: 30vw;
+  width: 20vw;
+  height: 18vw;
   position: absolute;
-  left: 2vw;
-  top: 10vh;
+  left: 8vw;
+  top: 20vh;
 }
 
 .banner_selector {
@@ -73,22 +75,19 @@
   filter: opacity(100%);
 }
 
-.notSelected {
+.banner_selector_item {
   border: 3.5px solid #fff;
   border-radius: 15px;
   padding: 2px;
   transition: all .5s ease;
 }
 
-.selected {
-  border: 3.5px solid rgb(87, 87, 255);
-  border-radius: 15px;
-  padding: 2px;
-  transition: all .5s ease;
+.banner_selector_item:hover {
+  transform: translateY(-8%);
 }
 
-.selected:hover {
-  transform: translateY(-8%);
+.selected {
+  border: 3.5px solid rgb(87, 87, 255);
 }
 
 @media(max-width:950px) {
